@@ -1,0 +1,137 @@
+<section class="bg-grey" style="background: url('../assets/img/sergey-pesterev-JV78PVf3gGI-unsplash.png'); background-size: cover; height: 500px;">
+    <div class="container-lg h-100">
+        <!-- <div class="main-search-container position-absolute bg-white p-3 p-md-5 pt-4 mx-auto text-center">
+            <h5 class="text-uppercase mb-3" style="font-size: 21px; color: #2F3286;">Vous recherchez un article</h5>
+            <form class="form main-search" action="" method="post">
+                <div class="input-group">
+                    <i class="fa fa-search" aria-hidden="true" style="color: #706f6f; margin: 14px 24px; position: absolute; z-index: 5; font-size: 1.4rem;"></i>
+                    <input class="form-control rounded-2" type="search" name="" value="" placeholder="Rechercher un article par nom, code IGN, référence" aria-label="Rechercher" required>
+                    <button class="btn btn-secondary ms-0 my-0" style="height: 50px; padding: 0 30px !important;" type="submit">Rechercher</button>
+                </div>
+            </form>
+        </div> -->
+    </div>
+</section>
+
+<!-- Section carousel produits -->
+<section class="bg-white text-center py-5">
+    <div class="container-lg my-5">
+        <h2 class="h3 text-blue">Lorem Ipsum Dolor Centrale des Pharmaciens</h2>
+        <img class="my-4" src="../assets/img/divider/h-divider-blue.svg" alt="..." width="6%" height="auto" style="min-width: 50px;">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators mb-5" style="bottom: -100px;">
+                <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class=""></li>
+                <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" class=""></li>
+                <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" class=""></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner pt-3">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center gx-3 gy-5 w-100 mx-auto">
+                        {{#repeat 12}}
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-custom">
+                            {{> product-1}}
+                        </div>
+                        {{/repeat}}
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-3 w-100 mx-auto">
+                        {{#repeat 12}}
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-custom">
+                            {{> product-1}}
+                        </div>
+                        {{/repeat}}
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-3 w-100 mx-auto">
+                        {{#repeat 12}}
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-custom">
+                            {{> product-1}}
+                        </div>
+                        {{/repeat}}
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-3 w-100 mx-auto">
+                        {{#repeat 12}}
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-custom">
+                            {{> product-1}}
+                        </div>
+                        {{/repeat}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 my-5"></div>
+        <button class="btn btn-primary mt-5" type="button">Accéder à la boutique</button>
+    </div>
+</section>
+
+
+<section class="text-center bg-grey py-5">
+    <div class="container-lg my-5">
+        <h2 class="h3 text-blue">Les solutions Centrale des Pharmaciens</h2>
+        <img class="my-4" src="../assets/img/divider/h-divider-blue.svg" alt="..." width="6%" height="auto" style="min-width: 50px;">
+        <div class="row">
+            <div class="col-12 col-sm-10 col-md-9 col-lg-8 mx-auto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce congue augue ut tortor dapibus, nec semper nunc gravida.
+                    Duis dictum tempor lorem, eget vestibulum enim imperdiet in.
+                </p>
+            </div>
+        </div>
+        <div class="row home-icons justify-content-center mt-5">
+            <div class="col-6 col-sm-4 col-xl-2">
+                <i class="fas fa-boxes-stacked"></i>
+                <p>Plus de 5500 références</p>
+            </div>
+            <div class="col-6 col-sm-4 col-xl-2">
+                <i class="fas fa-vials"></i>
+                <p>Plus de 140 laboratoires</p>
+            </div>
+            <div class="col-6 col-sm-4 col-xl-2">
+                <i class="fas fa-rocket"></i>
+                <p>Délais de livraison</p>
+            </div>
+            <div class="col-6 col-sm-4 col-xl-2">
+                <i class="fas fa-box"></i>
+                <p>600 produits en promotion tous les mois</p>
+            </div>
+            <div class="col-6 col-sm-4 col-xl-2">
+                <i class="fas fa-gem"></i>
+                <p>Offres dédiées groupements partenaires</p>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="button">Découvrir les services</button>
+    </div>
+</section>
+
+<section class="bg-white py-0 py-xl-5">
+    <div class="w-100 my-0 my-xl-5 mx-0 px-0" style="overflow: hidden;">
+        <div class="row">
+            <div class="col-12 col-xl-7 offset-cover">
+                <img class="" src="../assets/img/10222.png" alt="..." width="100%" height="auto">
+            </div>
+            <div class="col-12 col-xl-5 mx-auto my-auto" style="margin-left: -2rem;">
+                <div class="bg-blue opacity-90 rounded-3 p-lg">
+                    <h2 class="section-title text-white">Lorem Ipsum Dolor Centrale des Pharmaciens ?</h2>
+                    <p class="text-white my-5">
+                        Lorem ipsum dolor sit amet.
+                        Ea itaque corrupti sit ipsa dolorem ad illum omnis eum consequatur architecto est dolorem accusantium.
+                        Et alias cumque aut voluptas cumque sit temporibus omnis aut aspernatur quibusdam ea alias soluta.
+                        Vel repellendus voluptas et nesciunt numquam vel dicta deleniti aut illo eligendi.
+                        Ea molestiae numquam et aspernatur quia sit minus perferendis sit internos deserunt.
+                    </p>
+                    <a href="/adhesion.html">
+                        <button class="btn btn-light" type="button">Devenir adhérent</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

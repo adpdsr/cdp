@@ -1,0 +1,308 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <!-- TOP NAV -->
+    <!-- TOP NAV -->
+    <div class="nav-top">
+        <div class="container-lg d-flex align-items-center justify-content-end">
+            <ul class="d-flex list-unstyled mb-0">
+                <li>
+                    <a href="#">Boutique</a>
+                </li>
+                <span class="d-inlne-block mx-2">|</span>
+                <li>
+                    <a href="#">Astera</a>
+                </li>
+            </ul>
+            <ul class="d-flex list-unstyled mb-0 ps-4">
+                <li class="me-2">
+                    <a href="#" class="d-flex align-items-center">
+                        <span class="fa-brands fa-twitter-square"></span>
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a href="#" class="d-flex align-items-center">
+                        <span class="fa-brands fa-facebook-square"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex align-items-center">
+                        <span class="fa-brands fa-linkedin"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- MAIN NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-lg my-1">
+            <a class="navbar-brand" href="/">
+                <img src="../assets/img/logo-cdp-blanc.png" alt="Centrale des Pharmaciens">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-content">
+                <ul id="nav-list" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/plans-media.html">Plans média</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cas-comptoir.html">Cas comptoir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/laboratoire.html">Laboratoire</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="nav-dropdown-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Présentation
+                        </a>
+                        <ul class="dropdown-menu bg-grey p-4 rounded-0 border-0" aria-labelledby="nav-dropdown-1">
+                            <li><a class="dropdown-item" href="/qui-sommes-nous.html">Qui sommes nous ?</a></li>
+                            <li><a class="dropdown-item" href="#">Le pharmacien d'officine</a></li>
+                            <li><a class="dropdown-item" href="#">Groupement</a></li>
+                            <li><a class="dropdown-item" href="#">Solutions à l'industrie</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pe-0" href="/adhesion.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a  href="#">
+                            <i id="nav-search-icon" class="fas fa-search fa-2x" style="font-size: 24px; padding: 6px 0; color: #FFF;"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="nav-search" class="navbar-nav ms-auto" style="width: 100%; max-width: 500px; display: none;">
+                    <li class="nav-item w-100">
+                        <form action="" method="" class="header-navbar-search-form js-navbar-search hidden">
+                            <i class="fas fa-search fa-2x header-navbar-search-form-icon"></i>
+                            <input class="header-navbar-search-form-input" type="text" name="s" placeholder="Rechercher..." value="">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    <!-- Fil d'Ariane -->
+    <section class="bg-white">
+        <div class="container-lg py-4">
+            <div class="breadcrumb">
+                <a class="breadcrumb-home-link" href="/">
+                    <span class="fa fa-home" style="margin: 2px 0;"></span>
+                </a>
+                <span class="breadcrumb-chevron fas fa-chevron-right"></span>
+                <a class="breadcrumb-link" href="/">
+                    Page
+                </a>
+                <span class="breadcrumb-chevron fas fa-chevron-right"></span>
+                <span class="breadcrumb-current">Nom page active</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Barre de recherche -->
+    <section class="bg-grey" style="border: 1px solid #E8E8E9;">
+        <div class="container-lg" style="padding-top: 2.4rem; padding-bottom: 2.4rem;">
+            <form class="form main-search" action="" method="post">
+                <p class="text-blue text-uppercase fw-bold d-block d-md-none" style="font-size: 21px;">Vous recherchez un article</p>
+                <div class="input-group">
+                    <i class="fa fa-search" aria-hidden="true" style="color: #706f6f; margin: 14px 24px; position: absolute; z-index: 5; font-size: 1.4rem;"></i>
+                    <input class="form-control rounded-2" type="search" name="" value="" placeholder="Rechercher un article" aria-label="Rechercher" required>
+                    <!-- <button class="btn btn-secondary ms-0 ms-md-4" type="submit">Rechercher</button> -->
+                    <button class="btn btn-sm btn-secondary ms-0 ms-md-4 my-0" style="height: 50px; padding: 0 50px !important;" type="submit">Rechercher</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Section À propos & Documentation -->
+    <section class="container">
+        <h1 class="h3 l-spacing-lg mt-5">Page laboratoire</h1>
+        <h2 class="h4 text-blue text-uppercase my-5">Nom laboratoire</h2>
+        <ul class="nav nav-tabs nav-tabs-labo">
+            <li class="nav-item">
+                <a href="#a-propos" class="nav-link active me-2 me-md-3 me-lg-4" data-bs-toggle="tab">
+                    À propos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#documentation" class="nav-link" data-bs-toggle="tab">
+                    Documentation
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content tab-content-labo py-4 p-md-5">
+            <div class="tab-pane fade show active" id="a-propos">
+                <p class="text-black">
+                    Integer in lacus ac erat luctus porta. Donec metus risus, tristique quis sapien feugiat, rutrum consequat mauris. Vestibulum in magna vitae metus scelerisque venenatis. Proin blandit pretium eros, at malesuada ligula bibendum eu. Donec in rutrum eros. Quisque vel felis sed eros dictum tincidunt vulputate ut odio. Fusce quis lacinia sem. Nam eu aliquam sem. Pellentesque ut malesuada nunc. Morbi tincidunt libero orci, ac sodales risus porta id. Vivamus risus orci, congue nec libero eget, gravida laoreet justo. Proin eu urna sit amet mi cursus viverra. Vivamus facilisis bibendum mattis. Duis bibendum dictum lectus nec aliquam.
+                </p>
+                <p class="text-black mb-0">
+                    Proin diam nunc, pharetra quis lectus venenatis, elementum pharetra leo. Sed in nibh nunc. Cras non neque iaculis, venenatis sem at, consequat mauris. Etiam euismod eu metus ac rhoncus. Morbi tristique arcu vitae interdum porttitor. Maecenas euismod sollicitudin lorem. Aliquam id gravida neque.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="documentation">
+                <p class="text-black mb-0">
+                    Nunc placerat pretium gravida. Mauris ac diam leo. Nunc vestibulum congue ultricies. Nullam at dapibus urna, non convallis magna. Sed pellentesque id quam vel hendrerit. In pretium dui lacus, in tempus augue hendrerit nec. Phasellus mollis feugiat enim nec sagittis. Mauris rutrum ligula bibendum mi eleifend commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam imperdiet, lorem tristique faucibus aliquet, magna massa consectetur sapien, id dictum risus lectus quis tortor.
+                </p>
+            </div>
+        </div>
+        <div class="text-center my-4 pb-0 pb-md-4">
+            <button type="button" class="btn btn-sm btn-primary me-0 me-md-3 my-4 mb-lg-0">Commander les articles</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary px-5 ms-0 ms-md-3 my-4 mb-lg-0">Retour nom page précédente</button>
+            <!-- <button type="button" class="btn btn-sm btn-outline-secondary px-5 ms-0 ms-md-3 my-4 mb-lg-0">Retour page annuaire</button> -->
+        </div>
+    </section>
+    
+    <!-- Section Plan Média & Formation -->
+    <section>
+        <div class="row m-0">
+            <!-- Cover -->
+            <div class="cover-half col-12 col-xl-6" style="background-image: url('../assets/img/ceyda-ciftci-6MGhkYEgmwk-unsplash.png');"></div>
+            <!-- Text -->
+            <div class="col-12 col-xl-6 bg-grey p-lg">
+                <div class="col-12 col-xxl-9">
+                    <h3 class="section-title">Plan média</h3>
+                    <p class="text-black mt-4 mb-5">
+                        Lorem ipsum dolor sit amet.
+                        Ea itaque corrupti sit ipsa dolorem ad illum omnis eum consequatur architecto est dolorem accusantium.
+                        Et alias cumque aut voluptas cumque sit temporibus omnis aut aspernatur quibusdam ea alias soluta.
+                        Vel repellendus voluptas et nesciunt numquam vel dicta deleniti aut illo eligendi.
+                        Ea molestiae numquam et aspernatur quia sit minus perferendis sit internos deserunt.
+                    </p>
+                    <a href="#">
+                        <button class="btn btn-sm btn-outline-primary" type="button">Voir les plans média</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row m-0">
+            <!-- Text -->
+            <div class="col-12 col-xl-6 p-lg">
+                <div class="col-12 col-xxl-9 ms-auto">
+                    <h3 class="section-title">Formation</h3>
+                    <p class="text-black my-5">
+                        Lorem ipsum dolor sit amet.
+                        Ea itaque corrupti sit ipsa dolorem ad illum omnis eum consequatur architecto est dolorem accusantium.
+                        Et alias cumque aut voluptas cumque sit temporibus omnis aut aspernatur quibusdam ea alias soluta.
+                        Vel repellendus voluptas et nesciunt numquam vel dicta deleniti aut illo eligendi.
+                        Ea molestiae numquam et aspernatur quia sit minus perferendis sit internos deserunt.
+                    </p>
+                    <a href="#">
+                        <button class="btn btn-sm btn-outline-primary" type="button">Voir les formations</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Cover -->
+            <div class="cover-half col-12 col-xl-6" style="background-image: url('../assets/img/avel-chuklanov-DUmFLtMeAbQ-unsplash.png');"></div>
+        </div>
+    </section>
+    
+
+    <!-- FOOTER -->
+    <!-- Footer -->
+    <footer class="footer" style="overflow: hidden;">
+        <div class="container px-0">
+            <div class="row mx-auto py-5 px-3 px-md-5" style="max-width: 1200px;">
+                <a href="/" class="footer-logo mb-5">
+                    <img src="../assets/img/logo-cdp-blanc.png" alt="Centrale des Pharmaciens">
+                </a>
+                <div class="col-12 col-md-4 ps-0 mb-4 mt-5 mt-md-0 order-3 order-md-1">
+                    <ul class="nav flex-column">
+                        <!-- <li class="nav-item mb-4">
+                        </li> -->
+                        <li class="nav-item mb-4">
+                            <ul class="d-flex list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex align-items-center">
+                                        <span class="fa-brands fa-twitter-square"></span>
+                                    </a>
+                                </li>
+                                <li class="mx-3">
+                                    <a href="#" class="d-flex align-items-center">
+                                        <span class="fa-brands fa-facebook-square"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-flex align-items-center">
+                                        <span class="fa-brands fa-linkedin"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 d-inline">
+                                <span class="fa fa-location-dot me-2"></span>
+                                <span class="">Adresse</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0">
+                                <span class="fa fa-phone me-2"></span>
+                                <span class="">02 35 12 19 12</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0">
+                                <span class="fa fa-envelope me-2"></span>
+                                <span class="">Nous écrire</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 ps-0 ps-md-5 order-1">
+                    <h5 class="text-uppercase mb-4" style="width: 180px; font-size: 16px; padding-bottom: 10px; border-bottom: 2px solid white;">Rubrique 1</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0">Lien page 1</a>
+                        </li>
+                        <li class="nav-item my-1">
+                            <a href="#" class="nav-link p-0">Lien page 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0">Lien page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 ps-0 ps-md-5 order-2">
+                    <h5 class="text-uppercase mb-4" style="width: 180px; font-size: 16px; padding-bottom: 10px; border-bottom: 2px solid white;">Rubrique 2</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0">Lien page 1</a>
+                        </li>
+                        <li class="nav-item my-1">
+                            <a href="#" class="nav-link p-0">Lien page 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0">Lien page 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom bg-black p-4">
+            Tous droits réservés Goupe Astera / <a class="text-white" href="/mentions-legales.html">Mentions légales</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+footer {
+    background-color: #706F6F;
+}
+
+footer a, footer h5 {
+    color: white !important;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .footer-bottom {
+        font-size: 14px;
+    }
+}
+
+.footer-logo {
+    padding-left: 0;
+}
+
+.footer-logo img {
+    margin-left: -12px;
+    height: 60px;
+    width: auto;
+}

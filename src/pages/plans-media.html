@@ -1,0 +1,60 @@
+<!-- Fil d'Ariane -->
+{{> breadcrumb }}
+
+<!-- Barre de recherche -->
+{{> search }}
+
+<!-- Section intro text & cover -->
+{{> intro-text-and-cover title="Liste des plans média" }}
+
+<!-- Section liste plans média -->
+<section class="container-lg mt-5">
+    <nav id="nav-pm" class="nav-pm w-100">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-link prev active mb-0 p-0" id="nav-janvier-2022-tab" data-bs-toggle="tab" href="#nav-janvier-2022" role="tab" aria-controls="nav-janvier-2022" aria-selected="true">
+                <span class="fa fa-chevron-left fa-2x my-3 mx-4"></span>
+            </a>
+            <span class="nav-pm-title-container mx-auto mx-md-0">
+                <h6 id="nav-pm-title" class="text-blue text-uppercase fw-bold mb-0">Janvier 2022</h6>
+            </span>
+            <a class="nav-link next mb-0 p-0" id="nav-fevrier-2022-tab" data-bs-toggle="tab" href="#nav-fevrier-2022" role="tab" aria-controls="nav-fevrier-2022" aria-selected="false">
+                <span class="fa fa-chevron-right fa-2x my-3 mx-4"></span>
+            </a>
+        </div>
+    </nav>
+    <div class="tab-content py-5" id="nav-pm-content">
+        <div class="tab-pane fade show active" id="nav-janvier-2022" data-title="janvier 2022" role="tabpanel" aria-labelledby="nav-janvier-2022-tab">
+            <div class="row g-5">
+                {{# repeat 12 }}
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    {{> card-plan-media }}
+                </div>
+                {{/ repeat }}
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-fevrier-2022" data-title="février 2022" role="tabpanel" aria-labelledby="nav-fevrier-2022-tab">
+            <div class="row g-5">
+                <span class="text-light-grey ms-4">
+                    <i class="fas fa-triangle-exclamation me-2"></i>
+                    Pas de plan média disponible en février 2022
+                </span>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-mars-2022" data-title="mars 2022" role="tabpanel" aria-labelledby="nav-mars-2022-tab">
+            <div class="row g-5">
+                <span class="text-light-grey ms-4">
+                    <i class="fas fa-triangle-exclamation me-2"></i>
+                    Pas de plan média disponible en mars 2022
+                </span>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-avril-2022" data-title="avril 2022" role="tabpanel" aria-labelledby="nav-avril-2022-tab">
+            <div class="row g-5">
+                <span class="text-light-grey ms-4">
+                    <i class="fas fa-triangle-exclamation me-2"></i>
+                    Pas de plan média disponible en avril 2022
+                </span>
+            </div>
+        </div>
+    </div>
+</section>

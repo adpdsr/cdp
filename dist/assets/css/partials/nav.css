@@ -1,0 +1,48 @@
+/* top nav */
+
+.nav-top {
+    background-color: #E8E8E9;
+    color: #919394;
+    font-size: 15px;
+}
+
+.nav-top .fa-brands {
+    font-size: 20px;
+}
+
+.nav-top > .container-lg {
+    height: 48px;
+}
+
+/* main nav */
+
+.navbar {
+    background-color: #2F3286;
+}
+
+.navbar-brand img {
+    height: 48px;
+    width: auto;
+}
+
+@media only screen and (min-width : 768px) {
+    .navbar-brand img {
+        height: 60px;
+        width: auto;
+    }
+}
+
+.navbar-nav .nav-link {
+    color: #FFF !important;
+    text-transform: uppercase;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 27px;
+}
+
+.navbar .dropdown-item {
+    color: #706F6F;
+}
+
+/* search bar */

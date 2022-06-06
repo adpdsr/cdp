@@ -1,0 +1,33 @@
+.accordion-item {
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.accordion-button {
+    color: #2F3286;
+    background-color: #F8F8F8;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.accordion-body {
+    padding: 3rem 3rem 2rem 3rem;
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #2F3286;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #2F3286;
+}
+
+.accordion-button::after {
+    padding-left: 20px;
+	background-image: url("../../img/icons/circle-plus-solid-blue.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+    padding-left: 20px;
+    background-image: url("../../img/icons/circle-minus-solid-white.svg");
+}

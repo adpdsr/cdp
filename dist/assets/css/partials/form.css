@@ -1,0 +1,19 @@
+.form-adhesion {
+    background-color: #FFFFFFEE;
+}
+
+.form-adhesion input {
+    color: #848E94;
+    font-size: 15px;
+    padding: .75rem 1.2rem;
+    border: 1px solid #919394;
+    border-radius: 5px;
+}
+
+.form-adhesion h2 {
+    color: #2F3286;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
